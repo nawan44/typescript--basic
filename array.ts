@@ -14,7 +14,7 @@ console.log(prime[2])  //3
 
 const answer: boolean[] = [true, false, true, true]
 
-console.log(answers[2]) // true
+// console.log(answers[2]) // true
 
 const scores: Array<string | number> = ['A', 100, 80, 'AB']
 
