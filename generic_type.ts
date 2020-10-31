@@ -10,11 +10,11 @@ const room = {
     ac: false,
 }
 
-function save<T>(item: T): T {
+function save<T, K>(item: T, iitem2: K): T {
     return item
 }
 
-const item = save(book)
+const item = save(book, room)
 
 console.log(item.author) //nawan44
 console.log(item.title) //This Book
